@@ -1,0 +1,56 @@
+Assessment Tasks for "For Loop" Topic
+Task 1: Repeat User Input Until Valid Response
+Problem: Write a program that repeatedly asks the user for a positive integer greater than zero. The loop should continue until the user provides a valid input. If the input is not valid (e.g., zero or a negative number), the program should prompt the user again.
+
+Example:
+
+Input: -5 (Invalid) → "Please enter a positive integer."
+Input: 10 (Valid) → "Thank you! You entered: 10"
+Explanation: The for loop should continue prompting the user until a valid input is received. The loop will iterate through a specified range of invalid inputs before a valid response is obtained.
+
+Task 2: Reverse a Given String
+Problem: Write a program that takes a string as input and then reverses it using a for loop. The loop should iterate through the string in reverse order, appending each character to a new string until the original string is empty.
+
+Example:
+
+Input: "hello"
+Output: "olleh"
+Explanation: The for loop will run from the last character of the string to the first, appending each character to a new string to reverse it.
+
+Task 3: Validate a Password
+Problem: Write a program that validates a password input by the user. The program should repeatedly ask for a password until the user enters one that meets the following criteria:
+
+At least 8 characters long
+Contains at least one digit
+Contains at least one special character (e.g., !, @, #, etc.)
+Example:
+
+Input: "password123" (Invalid) → "Password must contain at least one special character."
+Input: "Password123!" (Valid) → "Password accepted."
+Explanation: The for loop ensures that the validation checks occur for each input until a valid password is provided.
+
+Task 4: Number Guessing Game
+Problem: Write a program for a simple number guessing game. The program generates a random number between 1 and 100 and asks the user to guess the number. The loop continues until the user guesses correctly, providing feedback if the guess is too high or too low.
+
+Example:
+
+Input: "50" → "Too high, try again!"
+Input: "30" → "Correct! You guessed the number."
+Explanation: A for loop will be used to check the user's guess repeatedly until they guess the correct number. Feedback will be provided in each iteration.
+
+Task 5: Multiplication Table of a Number
+Problem: Write a program that prints the multiplication table of a given number up to 10 using a for loop. The user should input the number, and the program will display the table.
+
+Example:
+
+Input: 3
+Output:
+python
+Copy code
+3 x 1 = 3
+3 x 2 = 6
+3 x 3 = 9
+3 x 4 = 12
+...
+3 x 10 = 30
+Explanation: The for loop will ensure that the multiplication for each number from 1 to 10 is performed and displayed.
